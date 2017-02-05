@@ -1,0 +1,27 @@
+{
+	"_DbType": "Values are 'mock', 'mysql', 'postgres', etc.",
+	"DbType": "mysql",
+	"Database": {
+		"development": {
+			"host": "localhost",
+			"database": "uow",
+			"user": "root",
+			"password": "yourpasshere",
+			"connectionLimit": 100
+		},
+		"staging": {
+			"host": "",
+			"database": "",
+			"user": "",
+			"password": "",
+			"connectionLimit": 100
+		},
+		"production": {
+			"host": "",
+			"database": "",
+			"user": "",
+			"password": "",
+			"connectionLimit": 100
+		}
+	}
+}
